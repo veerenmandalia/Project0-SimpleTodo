@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SimpleTodo</string>
+    <string name="add_item">Add Item</string>
+    <string name="new_item_hint">Enter a new item</string>
+    <string name="editing_item_title">Editing Item:</string>
+    <string name="save">Save</string>
+</resources>
