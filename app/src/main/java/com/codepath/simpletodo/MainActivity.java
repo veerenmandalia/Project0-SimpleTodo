@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Log.d(TAG, "Removing item at position " + position);
                 items.remove(position);
                 listUpdated();
-                return false;
+                return true;
             }
         });
         lvItems.setOnItemClickListener(new AdapterView.OnItemClickListener() {
