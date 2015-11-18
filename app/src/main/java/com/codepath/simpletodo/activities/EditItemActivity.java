@@ -1,4 +1,4 @@
-package com.codepath.simpletodo;
+package com.codepath.simpletodo.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,6 +7,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
+import com.codepath.simpletodo.R;
 
 public class EditItemActivity extends AppCompatActivity implements View.OnClickListener {
     private static final String TAG = EditItemActivity.class.getSimpleName();
@@ -17,8 +19,8 @@ public class EditItemActivity extends AppCompatActivity implements View.OnClickL
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.d(TAG, "onCreate()");
         setContentView(R.layout.activity_edit_item);
+
         Button save = (Button) findViewById(R.id.save);
         save.setOnClickListener(this);
         item = (EditText) findViewById(R.id.item);
