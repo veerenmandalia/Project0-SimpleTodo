@@ -37,8 +37,6 @@ GIF created with [SilentCast](https://github.com/colinkeenan/silentcast).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
-
 ## License
 
     Copyright [2015] [Veeren Mandalia]
