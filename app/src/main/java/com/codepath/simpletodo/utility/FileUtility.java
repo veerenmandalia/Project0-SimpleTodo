@@ -1,4 +1,4 @@
-package com.codepath.simpletodo.activities.utility;
+package com.codepath.simpletodo.utility;
 
 import android.content.Context;
 import android.util.Log;

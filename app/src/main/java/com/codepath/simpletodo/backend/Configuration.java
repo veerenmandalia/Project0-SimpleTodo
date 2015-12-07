@@ -1,4 +1,4 @@
-package com.codepath.simpletodo.activities.backend;
+package com.codepath.simpletodo.backend;
 
 public abstract class Configuration {
 

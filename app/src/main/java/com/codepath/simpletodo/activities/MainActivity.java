@@ -11,8 +11,8 @@ import android.widget.EditText;
 import android.widget.ListView;
 
 import com.codepath.simpletodo.R;
-import com.codepath.simpletodo.activities.backend.Configuration;
-import com.codepath.simpletodo.activities.utility.FileUtility;
+import com.codepath.simpletodo.backend.Configuration;
+import com.codepath.simpletodo.utility.FileUtility;
 
 import java.util.ArrayList;
 
